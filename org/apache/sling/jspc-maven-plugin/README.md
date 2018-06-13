@@ -11,6 +11,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
+To use this plugin, first add this nga mvn repository to your pom.xml:
+
+                <pluginRepository>
+                    <id>nga-mvn-repo</id>
+                    <name>National Gallery Of Art Public Maven Repository</name>
+                    <url>https://raw.github.com/NationalGalleryOfArt/mvn-repo/public</url>
+                    <releases>
+                        <enabled>true</enabled>
+                        <updatePolicy>never</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+                
+Then include this plugin as:
+
                 <plugin>
                     <groupId>org.apache.sling</groupId>
                     <artifactId>jspc-maven-plugin</artifactId>
