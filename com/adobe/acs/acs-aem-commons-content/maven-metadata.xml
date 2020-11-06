@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.adobe.acs</groupId>
+  <artifactId>acs-aem-commons-content</artifactId>
+  <versioning>
+    <release>4.0.0-nga</release>
+    <versions>
+      <version>4.0.0-nga</version>
+    </versions>
+    <lastUpdated>20201106192839</lastUpdated>
+  </versioning>
+</metadata>
